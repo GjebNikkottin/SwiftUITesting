@@ -11,14 +11,14 @@ import SwiftUI
 struct TransactionsHeader: View {
     var body: some View {
         HStack {
-            Text("Send to money")
+            Text("Положить на счёт")
                 .font(.headline)
             Spacer()
             Image(systemName: "plus.circle.fill")
                 .resizable()
                 .foregroundColor(Color(#colorLiteral(red: 0.3097526431, green: 0.3843510449, blue: 0.7528470159, alpha: 1)))
                 .frame(width: 30, height: 30)
-            Text("Add recipient")
+            Text("Добавить")
                 .font(.headline)
         }
         .padding(20)

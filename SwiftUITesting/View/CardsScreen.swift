@@ -17,7 +17,7 @@ struct CardsScreen: View {
                     CardList()
                     TransactionsView()
                 }
-                .navigationTitle(Text("My Cards"))
+                .navigationTitle(Text("Мои счета"))
             }
         }
     }

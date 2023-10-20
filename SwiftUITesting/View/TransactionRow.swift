@@ -17,14 +17,14 @@ struct TransactionRow: View {
                 .frame(width: 30, height: 30)
                 .padding(5)
             VStack(alignment: .leading) {
-                Text("Dribble")
+                Text("Списание")
                     .font(.headline)
                 Text("12 Nov 2020  11:08")
                     .font(.caption)
                     .foregroundColor(Color(.secondaryLabel))
             }
             Spacer()
-            Text("-$60.0")
+            Text("-$69.0")
                 .font(.headline)
         }
         .padding(8)
